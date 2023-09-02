@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Student from "./pages/Student";
 import Footer from "./components/Footer";
 import Teacher from "./pages/Teacher";
+import Class from "./pages/Class";
 
 function RoutesApp(){
     return(
@@ -16,6 +17,7 @@ function RoutesApp(){
                 <Route path="/subject" element={ <Subject/> } />
                 <Route path="/student" element={ <Student/> } />
                 <Route path="/teacher" element={ <Teacher/> } />
+                <Route path="/class" element={ <Class/> } />
 
             </Routes>
             <Footer/>
