@@ -8,7 +8,6 @@ function Class(){
 
     const [classList, setClassList] = useState([]);
     const [studentClassList, setStudentClassList] = useState([]);
-    const [idClass, setIdClass] = useState(null);
 
     async function loadClass(){
         const response = await api.get("class")
