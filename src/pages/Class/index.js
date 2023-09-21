@@ -42,7 +42,7 @@ function Class(){
                 <h2>Turma</h2>
                 <div class="formgrid grid">
                     <div class="field col-4">
-                <DataTable value={classList} className="datatable-container">
+                <DataTable value={classList} className="datatable-container" selectionMode="single">
                   <Column field="name" header="Nome" />
                   <Column field="shift" header="Turno" />
                   <Column field="numberVacancies" header="Vagas" />

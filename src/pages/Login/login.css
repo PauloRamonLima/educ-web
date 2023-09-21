@@ -1,0 +1,36 @@
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./escola.png');
+    background-size: cover; /* Isso fará com que a imagem cubra todo o corpo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página */
+    
+}
+
+.content-login {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    width: 40%;
+
+}
+
+label{
+    margin-top: 10px;
+}
+ .buttonLogin{
+    margin-top: 10px;
+    padding-top: 10px;
+ }
+
+.first-access{
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    float: right;
+} 

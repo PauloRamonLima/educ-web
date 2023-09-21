@@ -4,7 +4,7 @@ header{
     justify-content: left;
     width: 100%;
     height: 80px;
-    background-color:#6366F1;;
+    background-color:#6366F1;
 }
 
 .logo{
@@ -24,4 +24,17 @@ header{
     color: white;
     font-weight: bold;
     padding: 5px 5px;
+}
+
+.logout{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 5px 5px;
+    float: right;
+    right: 5%;
+    margin-left: 30%;
+    text-align: right;
 }
